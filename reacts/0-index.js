@@ -1,5 +1,5 @@
-import { addAction, subAction } from "./store/actionCreators.js";
-import store from "./store/index.js";  // webpack才可以简写, node不得行
+import { addAction, subAction } from "./src/store/actionCreators.js";
+import store from "./src/store/index.js";  // webpack才可以简写, node不得行
 
 
 store.subscribe(() => {
